@@ -3,18 +3,19 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Observer from "./pages/observer";
 import Main from "./pages/main";
 
-const isDEV = process.env.NODE_ENV === "development";
+const prefix =
+  process.env.NODE_ENV === "development" ? "/" : "/DesignPatternStudy";
 
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: prefix,
       element: <Main />,
       children: [{ path: "observer", element: <Observer /> }],
     },
   ],
   {
-    basename: isDEV ? "/" : "/DesignPatternStudy",
+    basename: prefix,
   }
 );
 
