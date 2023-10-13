@@ -3,13 +3,13 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Observer from "./pages/observer";
 import Main from "./pages/main";
 
-const prefix =
+export const prefix =
   process.env.NODE_ENV === "development" ? "/" : "/DesignPatternStudy";
 
 const router = createBrowserRouter(
   [
     {
-      path: prefix,
+      path: "/",
       element: <Main />,
       children: [{ path: "observer", element: <Observer /> }],
     },
