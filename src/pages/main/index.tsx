@@ -8,7 +8,7 @@ export default function Main() {
       <h1>Design Pattern</h1>
       <ul>
         <li>
-          <a href={`${prefix}observer`}>observer</a>
+          <a href={`${prefix}/observer`}>observer</a>
         </li>
       </ul>
       <Outlet />
