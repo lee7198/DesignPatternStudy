@@ -1,8 +1,8 @@
-name: Deploy
+name: main
 
 on:
   push:
-    branches: ["step1"]
+    branches: ["main"]
 
   workflow_dispatch:
 
