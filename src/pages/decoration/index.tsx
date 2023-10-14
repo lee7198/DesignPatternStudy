@@ -14,10 +14,12 @@ class 초보자 {
 }
 
 class 도적 extends 초보자 {
-  constructor(lagacy: 초보자, value: string) {
-    super(value);
+  constructor(lagacy: 초보자, skill: string) {
+    super(skill);
+    // 위임
     lagacy.skill_list.forEach((item) => this.skill_list.push(item));
     this.name = "도적 🥷";
+
     this.skill_list.reverse();
   }
 }
