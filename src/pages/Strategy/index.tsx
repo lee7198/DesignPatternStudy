@@ -19,13 +19,6 @@ class 계대생 {
     this.식당 = 식당_;
     console.log(this.식당);
   }
-
-  점심먹기(식당_?: undefined | 점심먹기) {
-    if (식당_ === undefined) return;
-
-    this.식당 = 식당_;
-    console.log(this.식당);
-  }
 }
 
 export default function Strategy() {
