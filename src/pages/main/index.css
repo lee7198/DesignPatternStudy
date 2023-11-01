@@ -1,0 +1,24 @@
+ul {
+  padding: 0;
+}
+a:visited {
+  color: #222;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+.nav li {
+  list-style-type: none;
+}
+.nav .active > a {
+  color: #fff;
+  background-color: #222;
+  padding: 0 3px;
+}
+.nav a {
+  text-decoration: none;
+  font-style: italic;
+}

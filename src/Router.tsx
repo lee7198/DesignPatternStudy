@@ -4,6 +4,7 @@ import Observer from "./pages/observer";
 import Main from "./pages/main";
 import Decoration from "./pages/decoration";
 import Strategy from "./pages/Strategy";
+import Command from "./pages/command";
 
 export const prefix =
   process.env.NODE_ENV === "development" ? "/" : "/DesignPatternStudy/";
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
         { path: "observer", element: <Observer /> },
         { path: "decoration", element: <Decoration /> },
         { path: "strategy", element: <Strategy /> },
+        { path: "command", element: <Command /> },
       ],
     },
   ],
