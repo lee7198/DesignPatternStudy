@@ -1,0 +1,10 @@
+.iterator .korea {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+}
+.iterator .korea .locate {
+  background-color: #ddd;
+  padding: 3px 6px;
+  border-radius: 3px;
+}

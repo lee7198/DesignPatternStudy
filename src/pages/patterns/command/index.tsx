@@ -4,28 +4,49 @@ interface Commander {
   run: () => void;
 }
 
-class AirConditionerCommand implements Commander {
-  private airconditioner;
+class CommandImpl implements Commander {
+  public powerOn = () => {
+    throw new Error("Method not implemented.");
+  };
+
+  public run = () => {
+    this.powerOn();
+  };
+}
+
+class AirConditionerCommand extends CommandImpl {
+  private airconditioner: undefined | AirConditioner;
+
+  super(arg: AirConditioner) {
+    this.airconditioner = arg;
+  }
+
+  public run = () => {
+    if (this.airconditioner) this.airconditioner.powerOn();
+  };
 
   constructor(arg: AirConditioner) {
+    super();
     this.airconditioner = arg;
   }
-  public run = () => {
-    this.airconditioner.powerOn();
-  };
 }
 
-class HeaterCommand implements Commander {
-  private airconditioner;
+class HeaterCommand extends CommandImpl {
+  private heater: undefined | Heater;
+
+  super(arg: AirConditioner) {
+    this.heater = arg;
+  }
+
+  public run = () => {
+    if (this.heater) this.heater.powerOn();
+  };
 
   constructor(arg: Heater) {
-    this.airconditioner = arg;
+    super();
+    this.heater = arg;
   }
-  public run = () => {
-    this.airconditioner.powerOn();
-  };
 }
-
 class AirConditioner {
   public powerOn = () => {
     alert("에어컨을 켰어요 🤖");

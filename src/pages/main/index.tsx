@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import { prefix } from "../../Router";
 import "./index.css";
 
-const menu = ["observer", "decoration", "strategy", "command"];
+const menu = ["observer", "decoration", "strategy", "command", "iterator"];
 
 export default function Main() {
   const location = useLocation();
