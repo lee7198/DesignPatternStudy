@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DesignPatternStudy/static/css/main.4bf5725d.css",
-    "main.js": "/DesignPatternStudy/static/js/main.cb5659d9.js",
+    "main.css": "/DesignPatternStudy/static/css/main.7c94f5a1.css",
+    "main.js": "/DesignPatternStudy/static/js/main.4a321214.js",
     "index.html": "/DesignPatternStudy/index.html",
-    "main.4bf5725d.css.map": "/DesignPatternStudy/static/css/main.4bf5725d.css.map",
-    "main.cb5659d9.js.map": "/DesignPatternStudy/static/js/main.cb5659d9.js.map"
+    "main.7c94f5a1.css.map": "/DesignPatternStudy/static/css/main.7c94f5a1.css.map",
+    "main.4a321214.js.map": "/DesignPatternStudy/static/js/main.4a321214.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bf5725d.css",
-    "static/js/main.cb5659d9.js"
+    "static/css/main.7c94f5a1.css",
+    "static/js/main.4a321214.js"
   ]
 }
