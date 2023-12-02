@@ -8,3 +8,4 @@
 4. [**🙄 Command Pattern**](https://lee7198.github.io/DesignPatternStudy/command)
 5. [**👽 Iterator Pattern**](https://lee7198.github.io/DesignPatternStudy/iterator)
 6. [**🧢 Component Pattern**](https://lee7198.github.io/DesignPatternStudy/Component)
+7. 프록시

@@ -7,6 +7,7 @@ import Strategy from "./pages/patterns/Strategy";
 import Command from "./pages/patterns/command";
 import Iterator from "./pages/patterns/iterator";
 import Component from "./pages/patterns/component";
+import Proxy from "./pages/patterns/Proxy";
 
 export const prefix =
   process.env.NODE_ENV === "development" ? "/" : "/DesignPatternStudy/";
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
         { path: "command", element: <Command /> },
         { path: "iterator", element: <Iterator /> },
         { path: "component", element: <Component /> },
+        { path: "proxy", element: <Proxy /> },
       ],
     },
   ],

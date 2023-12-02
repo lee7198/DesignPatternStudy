@@ -11,6 +11,7 @@ const menu = [
   "command",
   "iterator",
   "component",
+  "proxy",
 ];
 
 export default function Main() {
