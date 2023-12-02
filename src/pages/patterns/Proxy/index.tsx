@@ -13,6 +13,7 @@ export default function Proxy() {
       <Suspense fallback={"로딩중..."}>
         <Chunsik />
       </Suspense>
+
       <h3>원격 프록시</h3>
       <p>
         원격 객체에 대한 접근을 마치 로컬 객체를 통해서 접근하는 것처럼 할 수
