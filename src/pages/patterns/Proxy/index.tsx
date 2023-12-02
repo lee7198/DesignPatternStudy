@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
 // import 하르방춘식 from "../../../assets/images/하르방춘식.png";
 
-const Chunsik = lazy(() => import("./components/춘식"));
+const Chunsik = lazy(() => import("./components/Chunsik"));
 
 export default function Proxy() {
   return (
