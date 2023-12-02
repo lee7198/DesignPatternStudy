@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkdesign_pattern=self.webpackChunkdesign_pattern||[]).push([[853],{668:function(e,t,n){n.r(t),n.d(t,{default:function(){return i}});n(791);var s=n.p+"static/media/JejuChunsik.e5b7b329c9e652bf2b45.png",u=n(184);function i(){return(0,u.jsx)("img",{alt:"\ud558\ub974\ubc29\ucd98\uc2dd",style:{width:"100%"},src:s})}}}]);
-//# sourceMappingURL=853.642c1f6d.chunk.js.map
