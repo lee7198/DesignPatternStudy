@@ -13,6 +13,7 @@ const menu = [
   "component",
   "proxy",
   "ChainOfResponsibility",
+  "mediator",
 ];
 
 export default function Main() {
