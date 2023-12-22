@@ -42,6 +42,7 @@ abstract class Colleague {
 }
 
 class ConcreteColleague extends Colleague {
+  // eslint-disable-next-line @typescript-eslint/no-useless-constructor
   constructor(mediator: Mediator_, name: string) {
     super(mediator, name);
   }
