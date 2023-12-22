@@ -12,6 +12,7 @@ const menu = [
   "iterator",
   "component",
   "proxy",
+  "ChainOfResponsibility",
 ];
 
 export default function Main() {
