@@ -1,6 +1,9 @@
 ul {
   padding: 0;
 }
+a {
+  color: #222;
+}
 a:visited {
   color: #222;
 }

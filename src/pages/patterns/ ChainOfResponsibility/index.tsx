@@ -91,7 +91,7 @@ export default function ChainOfResponsibility() {
 
   const run2 = () => {
     const app = new App();
-    app.setA(new A()).makeApp();
+    app.setA(new A()).setB(new B()).makeApp();
   };
 
   return (

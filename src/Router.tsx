@@ -10,6 +10,7 @@ import Component from "./pages/patterns/component";
 import Proxy from "./pages/patterns/Proxy";
 import ChainOfResponsibility from "./pages/patterns/ ChainOfResponsibility";
 import Mediator from "./pages/patterns/mediator";
+import Visitor from "./pages/patterns/visitor";
 
 export const prefix =
   process.env.NODE_ENV === "development" ? "/" : "/DesignPatternStudy/";
@@ -28,7 +29,8 @@ const router = createBrowserRouter(
         { path: "component", element: <Component /> },
         { path: "proxy", element: <Proxy /> },
         { path: "ChainOfResponsibility", element: <ChainOfResponsibility /> },
-        { path: "Mediator", element: <Mediator /> },
+        { path: "mediator", element: <Mediator /> },
+        { path: "visitor", element: <Visitor /> },
       ],
     },
   ],

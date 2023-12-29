@@ -14,6 +14,7 @@ const menu = [
   "proxy",
   "ChainOfResponsibility",
   "mediator",
+  "Visitor",
 ];
 
 export default function Main() {
