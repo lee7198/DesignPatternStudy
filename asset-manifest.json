@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DesignPatternStudy/static/css/main.7c94f5a1.css",
-    "main.js": "/DesignPatternStudy/static/js/main.064f6a07.js",
+    "main.css": "/DesignPatternStudy/static/css/main.66f69831.css",
+    "main.js": "/DesignPatternStudy/static/js/main.54499ef2.js",
     "static/js/853.21972619.chunk.js": "/DesignPatternStudy/static/js/853.21972619.chunk.js",
     "static/media/JejuChunsik.png": "/DesignPatternStudy/static/media/JejuChunsik.e5b7b329c9e652bf2b45.png",
     "index.html": "/DesignPatternStudy/index.html",
-    "main.7c94f5a1.css.map": "/DesignPatternStudy/static/css/main.7c94f5a1.css.map",
-    "main.064f6a07.js.map": "/DesignPatternStudy/static/js/main.064f6a07.js.map",
+    "main.66f69831.css.map": "/DesignPatternStudy/static/css/main.66f69831.css.map",
+    "main.54499ef2.js.map": "/DesignPatternStudy/static/js/main.54499ef2.js.map",
     "853.21972619.chunk.js.map": "/DesignPatternStudy/static/js/853.21972619.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c94f5a1.css",
-    "static/js/main.064f6a07.js"
+    "static/css/main.66f69831.css",
+    "static/js/main.54499ef2.js"
   ]
 }
