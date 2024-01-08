@@ -9,5 +9,5 @@
 5. [**👽 Iterator Pattern**](https://lee7198.github.io/DesignPatternStudy/iterator)
 6. [**🧢 Component Pattern**](https://lee7198.github.io/DesignPatternStudy/component)
 7. [**🐌 Proxy Pattern**](https://lee7198.github.io/DesignPatternStudy/proxy)
-8. [**⛓️ Chain Of Responsibility**](https://lee7198.github.io/DesignPatternStudy/ChainOfResponsibility)
-9. [**💪 mediator**](https://lee7198.github.io/DesignPatternStudy/mediator)
+8. [**⛓️ Chain Of Responsibility Pattern**](https://lee7198.github.io/DesignPatternStudy/ChainOfResponsibility)
+9. [**💪 Mediator Pattern**](https://lee7198.github.io/DesignPatternStudy/mediator)
